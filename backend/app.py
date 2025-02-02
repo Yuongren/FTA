@@ -13,7 +13,7 @@ db.init_app(app)
 CORS(app)
 
 # Create tables
-with app.app_context():
+with app.app_context():  # Ensures db.create_all() is executed in the correct context
     db.create_all()
 
 # Routes
@@ -59,4 +59,6 @@ def view_activities(user_id):
     return jsonify(result)
 
 if __name__ == "__main__":
+    with app.app_context():  # Ensures the database is created properly at startup
+        db.create_all()
     app.run(debug=True)
