@@ -32,39 +32,6 @@ The Fitness Tracking App is a full-stack web application that helps users track 
  * Formik
  * Yup
 
-
-Here's a simple README for your Fitness Tracking App:
-
-Fitness Tracking App
-Overview
-The Fitness Tracking App is a full-stack web application that helps users track their fitness activities and progress over time. Users can register, log their fitness activities, set fitness goals, and view their past activities and goals. This project is built using React for the frontend and Flask for the backend.
-
-Features
-User Registration and Login: Users can create an account and log in to the app.
-Log Fitness Activities: Users can log various fitness activities, such as running, weightlifting, etc.
-View Fitness Logs: Users can view their past fitness activities.
-Set Fitness Goals: Users can set fitness-related goals (e.g., number of workouts per week).
-User Profile: Displays user information, activity logs, and goals.
-Tech Stack
-Frontend: React, Axios, React Router, Formik, Yup
-Backend: Flask, Flask-SQLAlchemy, Flask-WTF, Flask-CORS
-Database: SQLite (for development), can be changed to PostgreSQL for production
-Deployment: Render (Backend), Netlify (Frontend)
-Requirements
-Backend (Flask)
-Python 3.x
-Flask
-Flask-SQLAlchemy
-Flask-WTF
-Flask-CORS
-Frontend (React)
-Node.js
-React
-Axios
-React Router
-Formik
-Yup
-
 # Installation
 ## Backend Setup (Flask)
 
@@ -144,3 +111,6 @@ fitness-tracking-app/
 
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+# Author
+Youngren Gitonga. For any questions or issues, please contact [Youngren] at [youngrengitonga@gmail.com].
